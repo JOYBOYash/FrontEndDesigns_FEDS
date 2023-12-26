@@ -1,0 +1,316 @@
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Righteous', sans-serif; */
+*{
+ 
+   margin: 0; 
+   padding: 0;
+   overflow: hidden;
+   /* width: 100%;
+   height: 100%; */
+}
+body{
+    font-family: 'Righteous', sans-serif;
+    background-image: url(/HxHCharsPage/himgs/hunter_logo.jpg);
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5%;
+    padding: 25px;
+    position: fixed;
+}
+.hlogo{
+    width: 150px;
+    height: 150px;
+}
+.protxt{
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: -13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.chars{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.chars:hover{
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+}
+.gonl:hover{
+    color: lawngreen;
+}
+.kill:hover{
+    color: skyblue;
+}
+.kural:hover{
+    color: crimson;
+}
+.leol:hover{
+    color: darkslateblue;
+}
+.hisol:hover{
+    color: darkmagenta;
+}
+.komul:hover{
+    color: darkkhaki;
+}
+.allul:hover{
+    color: darkblue;
+}
+
+section{
+    margin-left: 150px;
+  max-width: 3000px;
+ 
+  /* backdrop-filter: blur(5px); */
+
+}
+/* .cname{
+    font-size: 95px;
+    color: white;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+    font-family: 'Bebas Neue', sans-serif;
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
+
+.ctext{
+    font-size: 30px;
+} */
+
+
+main{
+    width: auto;
+    margin-top: 100px;
+    height: 1000px;
+    display: inline-block;
+}
+
+.gonfree{
+    display: flex;
+    visibility: hidden;
+    overflow: hidden;
+}
+.gon2{
+    margin-top: 50px;
+}
+.area{
+   
+    margin-left: 90px;
+    margin-top: 700px;
+    align-self: center;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-start; */
+    justify-content: space-around;
+    
+}
+.cname{
+    font-size: 85px;
+    font-family: 'Bebas Neue', sans-serif;
+    /* text-align: center; */
+    color: lawngreen;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.ctext{
+    color: white;
+    font-size: 25px;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+    /* text-align: center; */
+}
+.endpic{
+    margin-top: 750px;
+    width: 250px;
+    height: 250px;
+    align-self: center;
+    align-content: end;
+}
+
+.killzold{
+    visibility: hidden;
+    display: flex;
+
+}
+
+.killuaimg{
+    /* margin-left: -20px; */
+    margin-top: 80px;
+
+    width: 700px;
+    height: 900px;
+}
+
+.kilarea{
+    margin-left: 10px;
+    margin-top: 700px;
+    align-self: center;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-start; */
+    justify-content: space-around;
+
+}
+.kilname{
+    font-size: 85px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: skyblue;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.kiltext{
+    color: white;
+    font-size: 25px;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.endpic1{
+    margin-top: 760px;
+    width: 350px;
+    height: 250px;
+    align-self: center;
+    align-content: end;
+}
+
+.kurakurt{
+    /* visibility: hidden; */
+    display: flex;
+
+}
+
+.kurapikaimg{
+  width: 800px ;
+  height: 1000px;
+  margin-top: 50px;
+}
+.kurarea{
+    margin-left: 10px;
+    margin-top: 700px;
+    align-self: center;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-start; */
+    justify-content: space-around;
+
+}
+.kurname{
+    font-size: 85px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: crimson;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.kurtext{
+    color: white;
+    font-size: 22px;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.endpic2{
+    margin-top: 750px;
+    width: 450px;
+    height: 250px;
+    align-self: center;
+    align-content: end;
+}
+
+.leorpala{
+    /* visibility: hidden; */
+    display: flex;
+    flex-direction: row;
+
+}
+.leorioimg{
+    margin-left: -50px;
+    margin-top: 150px;
+    width: 900px;
+    height: 750px;
+}
+.leoarea{
+    margin-left: 10px;
+    margin-top: 650px;
+    align-self: center;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-start; */
+    justify-content: space-around;
+
+}
+.leoname{
+    font-size: 85px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: darkslateblue;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.leotext{
+    color: white;
+    font-size: 22px;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.endpic3{
+    margin-top: 750px;
+    width: 350px;
+    height: 250px;
+    align-self: center;
+    align-content: end;
+}
+
+.hisomoro{
+    /* visibility: hidden; */
+    display: flex;
+    flex-direction: row;
+
+}
+.hisokaimg{
+    margin-left: -50px;
+    margin-top: 200px;
+    width: 1100px;
+    height: 800px;
+}
+.hisarea{
+    margin-left: -20px;
+    margin-top: 600px;
+    align-self: center;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: flex-start; */
+    justify-content: space-around;
+
+}
+.hisname{
+    font-size: 85px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: darkmagenta;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.histext{
+    color: white;
+    font-size: 22px;
+    -webkit-text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px #000;
+}
+.endpic4{
+    margin-top: 680px;
+    width: 700px;
+    height: 450px;
+    align-self: center;
+    align-content: end;
+}
+

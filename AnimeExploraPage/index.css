@@ -1,0 +1,315 @@
+/* 
+
+   Fonts -
+   *****
+   font-family: "Bebas Neue", sans-serif;
+   font-family: "Madimi One", sans-serif;
+   font-family: "Jaro", sans-serif; 
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    /* background: rgb(255,255,255); */
+    /* background: radial-gradient(circle, rgba(255,255,255,1) 3%, rgba(11,182,224,1) 14%, rgba(3,120,149,1) 32%, rgba(6,30,130,1) 51%, rgba(116,116,116,1) 72%, rgba(0,0,0,1) 100%); */
+    background-image: url(/AnimeExploraPage/imgs/malevalentshrine.jpg);
+    background-size: cover;
+}
+
+ /* NAVBAR */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    position: fixed;
+    padding: 5px;
+    width: 100%;
+    z-index: 2;
+    /* width: 100%; */
+    height: auto;
+    backdrop-filter: blur(25px);
+    box-shadow: #000 0px 0px 10px ;
+    border-bottom: #000 5px solid;
+}
+.logo{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.logoimg{
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 5px;
+    padding: 2px;
+}
+.logotxt{
+    font-size: 45px;
+    color: red;
+    /* text-shadow: 0 0 10px #000; */
+    /* box-shadow: 0 0 10px #000; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-weight: 800;
+    font-family: "Jaro", sans-serif;
+}
+.ex{
+    font-size: 45px;
+   color: blue;
+   font-weight: 800;
+  
+   font-family: "Jaro", sans-serif;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.links{
+    color: #000;
+    font-weight: 600;
+    font-family: "Jaro", sans-serif;
+    text-align: center;
+    padding-right: 50px;
+    text-decoration: none;
+    -webkit-text-stroke: 0.0000002rem  white;
+    font-size: 35px;
+    /* -webkit-text-stroke: white 0px 0px  2px solid; */
+}
+.links:hover{
+    color: purple;
+    transition: 0.2s ease-in-out;
+    /* text-shadow: 0 0 25px #000; */
+    font-size: 38px;
+    -webkit-text-stroke: 0.0000002rem  pink;
+}
+
+ /* NAVBAR */
+
+ /* HOME */
+ 
+.home{
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    background-image: url(/AnimeExploraPage/imgs/malevalentshrine.jpg);
+    background-size: cover;
+}
+.weltrans{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.weltxt{
+    font-size: 300px;
+    font-family: "Bebas Neue", sans-serif;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: aliceblue;
+    position: inherit;
+    z-index: 1;
+}
+.welimg{
+    margin-top: -280px;
+    z-index: -1;
+}
+.txttrans{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: aliceblue;
+    /* z-index: 1; */
+}
+.fam{
+    color: #000;
+    font-size: 150px;
+    margin-top: -150px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    /* font-family: "Jaro", sans-serif;  */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+}
+.desc{
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+/* .em{
+    color: purple;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    font-family: "Jaro", sans-serif; 
+} */
+
+.subscribe{
+    margin-top: 50px;
+    text-align: center;
+    transform: scale(150%);
+}
+ /* HOME */
+
+
+  /* INFO */
+
+.info{
+    background-image: url(/AnimeExploraPage/imgs/infinite\ void.jpg);
+}
+ 
+.gosutrans{
+    border: white 5px solid;
+    border-top-left-radius: 750px;
+    border-bottom-right-radius: 750px;
+    backdrop-filter: blur(5px);
+    border-style: groove;
+
+    /* z-index: -1; */
+}
+.gojig{
+    margin-top: -100px;
+    margin-left: -650px;
+}
+.sukig{
+    margin-top: -100px;
+    margin-right: -650px;
+
+}
+  
+
+.des1{
+    margin: 5px;
+    font-size: 40px;
+    /* text-shadow: #000 0px 0px 10px; */
+   text-align: center;
+    /* text-align: left; */
+    color: white;
+    width: 100%;
+    backdrop-filter: blur(25px);
+    -webkit-text-stroke: #000 0.2px;
+    font-weight: 600;
+}
+
+
+
+
+  
+  /* INFO */
+
+  /* YT */
+
+
+
+
+.shinimg{
+    margin-top: -400px;
+}
+
+.ytsub{
+    transform: scale(200%);
+}
+.ytdesc{
+    /* margin-top: -50px; */
+    margin-top: 45px;
+    width: auto;
+    height: 250px;
+    display: flex;
+    margin-left: 00px;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ytdes{
+    margin-top: 20px;
+    text-align: center;
+    /* margin-bottom: -150px; */
+    z-index: 1;
+    position: relative;
+    color: white;
+    -webkit-text-stroke: #000 0.5px;
+}
+.konimg{
+    position: relative;
+    z-index: 0;
+    transform: rotateZ(-5deg);
+    margin-left: 10px;
+}
+/* .konimg{
+    z-index: -1;
+    transform: rotateZ(-20deg);
+    /* position: relative; */
+    /* margin-top: 200px; 
+} */
+/* .imagepre{
+    padding: 5px;
+} */
+/* .ballimg{
+    margin-top: -25px;
+} */
+
+  /* YT */
+
+  /* BAKAS */
+ 
+.bakas{
+    background-image: url(/AnimeExploraPage/imgs/infinite\ void.jpg);
+}
+
+  .inimg{
+    margin-top: -2550px;
+  }
+.retxt{
+    height: 45vh;
+    font-size: 250px;
+}
+
+.maildesc{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(25px);
+    height: 100px;
+}
+.mailme{
+    text-decoration: none;
+    color: #000;
+    font-size: 65px;
+    text-align: center;
+    font-family: "Jaro", sans-serif; 
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    transition: ease-in-out;
+    color: white;
+}
+.mailme:hover{
+    font-size: 70px;
+    padding: 2px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
+    transition: ease-in-out;
+    color: black;
+}
+.balimg{
+   margin-top: 0.25px;
+}
+  /* BAKAS */

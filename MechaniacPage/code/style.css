@@ -130,6 +130,10 @@ header{
     text-align: center;
     cursor: pointer;
 }
+.t0{
+    color: #062191;
+    font-size: 50px;
+}
 .hero:hover{
     font-size: 20px;
     color: #c9d3e1;

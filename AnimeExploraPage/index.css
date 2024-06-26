@@ -36,9 +36,11 @@ body{
     text-align: center;
     align-content: center;
     position: fixed;
-    padding: 5px;
+    padding: 20px;
     width: 100%;
     z-index: 2;
+    border-bottom-left-radius: px;
+    border-bottom-right-radius: 100px;
     /* width: 100%; */
     height: auto;
     backdrop-filter: blur(25px);
@@ -58,12 +60,15 @@ body{
 }
 .logotxt{
     font-size: 45px;
-    color: red;
+    background: -webkit-linear-gradient(#242424, #1111);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     /* text-shadow: 0 0 10px #000; */
     /* box-shadow: 0 0 10px #000; */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    font-weight: 800;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: purple;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 3px;
+    font-weight: 800; 
     font-family: "Jaro", sans-serif;
 }
 .ex{
@@ -85,6 +90,7 @@ body{
     font-family: "Jaro", sans-serif;
     text-align: center;
     padding-right: 50px;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 3px;
     text-decoration: none;
     -webkit-text-stroke: 0.0000002rem  white;
     font-size: 35px;
@@ -146,23 +152,31 @@ body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: aliceblue;
 }
+.fam, .welimg, .weltxt, .txttrans{
+   animation:  SlideFadein 0.5s;
+   transition: ease-out;
+   text-shadow: rgba(0, 0, 0, 0.25) 5px 15px 3px;
+}
 .desc{
     text-align: center;
+    animation: Fadein  2s ease-in-out;
     font-size: 30px;
     color: aliceblue;
 }
-/* .em{
-    color: purple;
+.em{
+    color: black;
     font-size: 40px;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.5px;
     font-family: "Jaro", sans-serif; 
-} */
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 5px 0px;
+}
 
 .subscribe{
     margin-top: 50px;
     text-align: center;
     transform: scale(150%);
+    animation: Fadein 3s;
 }
  /* HOME */
 
@@ -174,11 +188,14 @@ body{
 }
  
 .gosutrans{
-    border: white 5px solid;
+    margin-top: 50px;
+    /* border: white 5px solid;
     border-top-left-radius: 750px;
-    border-bottom-right-radius: 750px;
+    border-bottom-right-radius: 750px; */
     backdrop-filter: blur(5px);
-    border-style: groove;
+    /* border-style: groove; */
+    animation-duration: 3s;
+    animation-name: Fadein;
 
     /* z-index: -1; */
 }
@@ -191,7 +208,17 @@ body{
     margin-right: -650px;
 
 }
-  
+.desc{
+    margin-top:50px;
+}
+.info .weltxt, .txttrans{
+    animation:slideLeftin  0.5s;
+    transition: ease-out;
+ }
+.weldesc{
+    margin-top: -50px;
+    overflow: hidden;
+}
 
 .des1{
     margin: 5px;
@@ -205,7 +232,52 @@ body{
     -webkit-text-stroke: #000 0.2px;
     font-weight: 600;
 }
+.des1 {
+    animation-duration: 3s;
+    animation-name: Fadein;
+  }
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      width: 300%; 
+    }
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
 
+  @keyframes Fadein {
+    from {
+      opacity: 0;
+      border: none;
+    }
+    to {
+      opacity: 1;
+      border: #000;
+    }
+  }
+
+  @keyframes SlideFadein {
+    from {
+     color: red;
+      opacity: 0;
+    }
+    to {
+     opacity: 1;
+     transition: ease;
+    }
+  }
+  @keyframes slideLeftin {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 
 
